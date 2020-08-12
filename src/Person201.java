@@ -9,11 +9,11 @@ public class Person201 {
      * Default constructor for Owen@Duke
      */
     public Person201(){
-//        myName = "Owen";
-//        myLatitude = 35.9312;
-//        myLongitude = -79.0058;
-//        myPhrase = "woto";
-        this("Owen", 35.9312, -79.0058,"woto");
+        // TODO change here
+        myName = "no-name";
+        myLatitude = 35.9312;
+        myLongitude = -79.0058;
+        myPhrase = "woto";
     }
 
     /**
@@ -46,6 +46,24 @@ public class Person201 {
      */
     public double getMyLongitude(){
         return myLongitude;
+    }
+
+    /**
+     * Returns phrase for this person.
+     * @return phrase for this person.
+     */
+    public String getPhrase(){
+        // TODO change here
+        return "woto";
+    }
+
+    /**
+     * Returns name of this person.
+     * @return name of this person
+     */
+    public String getName(){
+        // TODO change here
+        return "name";
     }
 
 
