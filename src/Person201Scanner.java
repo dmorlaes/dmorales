@@ -43,8 +43,10 @@ public class Person201Scanner {
 
     public static void main(String[] args) throws IOException {
         String fname = "data/large.txt";
+        String url = "https://www2.cs.duke.edu/courses/current/compsci201/data/medium.txt";
 
-        Person201[] list = readFile(fname);
+
+        Person201[] list = readURL(url);
         for(Person201 p : list) {
             System.out.println(p);
         }
