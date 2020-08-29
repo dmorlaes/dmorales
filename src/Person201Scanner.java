@@ -42,7 +42,7 @@ public class Person201Scanner {
     }
 
     public static void main(String[] args) throws IOException {
-        String fname = "data/small.txt";
+        String fname = "data/large.txt";
 
         Person201[] list = readFile(fname);
         for(Person201 p : list) {
